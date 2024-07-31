@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Testando JavaScript</title>
+</head>
+<body>
+    <h1>Validação de formulários</h1>
+    <form>
+        <label for="nome">Digite seu nome:</label>
+        <input type="text" name="nome" id="nome">
+        <label for="sobrenome">Digite seu sobrenome:</label>
+        <input type="text" name="sobrenome" id="sobrenome">
+        <label for="email">Digite seu email:</label>
+        <input type="email" name="email" id="email">
+        <label for="telefone">Digite seu telefone:</label>
+        <input type="text" name="telefone" id="telefone" onkeypress="mascaraTelefone(this.value, '##-#####-####');">
+        <input type="button" value="Salvar" onclick="validaCampos()">
+    </form>
+</body>
+</html>
