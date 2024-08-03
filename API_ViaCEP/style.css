@@ -1,0 +1,38 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1{
+    text-align: center;
+    margin: 10px 0px 10px 0px;
+}
+
+#nome, #sobrenome, #email{
+    outline: 0;
+}
+
+.divForm{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.formValida{
+    width: 20%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    background-color: rgb(233, 169, 169);
+    border: 1px solid red;
+}
+
+.formValida input{
+    margin-top: 5px;
+}
+
+#btnSalvar{
+    margin-bottom: 5px;cursor: pointer;
+}

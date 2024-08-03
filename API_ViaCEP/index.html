@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Testando JavaScript</title>
+</head>
+<body>
+    <h1>Validação de formulários</h1>
+    <div class="divForm">
+        <form class="formValida">
+            <label for="nome">Digite seu nome:</label>
+            <input type="text" name="nome" id="nome">
+            <label for="sobrenome">Digite seu sobrenome:</label>
+            <input type="text" name="sobrenome" id="sobrenome">
+            <label for="email">Digite seu email:</label>
+            <input type="email" name="email" id="email">
+            <label for="telefone">Digite seu telefone:</label>
+            <input type="text" name="telefone" id="telefone" onkeypress="mascara(0, this.value, '##-#####-####');">
+
+            <label for="cpf">Digite seu CEP:</label>
+            <input type="text" name="cep" id="cep" onkeypress="mascara(1, this.value, '#####-###');" onkeyup="buscaEndereco(this.value)">
+            <label for="estado">Digite seu estado:</label>
+            <input type="text" name="estado" id="estado">
+            <label for="cidade">Digite sua cidade:</label>
+            <input type="text" name="cidade" id="cidade">
+            <label for="rua">Digite seu bairro:</label>
+            <input type="text" name="bairro" id="bairro">
+            <label for="rua">Digite sua rua:</label>
+            <input type="text" name="rua" id="rua">
+
+            <input id="btnSalvar" type="button" value="Salvar" onclick="validaCampos()">
+        </form>
+    </div>
+</body>
+</html>
