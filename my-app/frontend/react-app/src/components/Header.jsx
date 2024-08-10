@@ -1,10 +1,11 @@
 import React from "react";
+import "./Header.css";
 
 export default function AppHeader(){
     return (
-        <main>
-            <h1>HEADER</h1>
-            <hr /><hr />
-        </main>
+        <header className="header">
+            <h1>Header</h1>
+            <hr />
+        </header>
     )
 }

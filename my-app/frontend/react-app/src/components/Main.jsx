@@ -2,7 +2,7 @@ import React from "react";
 
 export default function AppMain(){
     return (
-        <main>
+        <main className="maincontent">
             <h1>MAIN</h1>
             <hr /><hr />
             <p>

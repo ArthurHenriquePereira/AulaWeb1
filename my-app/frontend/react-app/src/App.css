@@ -1,6 +1,5 @@
 :root {
   --bg-mainapp : black;
-
   --logo-height: 74px;
   --logo-width: 200px;
   --header-height: 100px;
@@ -18,10 +17,8 @@
   display: grid;
   grid-template-columns: var(--logo-width) 1fr;
   grid-template-rows: var(--logo-height) var(--nav-height) var(--main-height) var(--footer-height);
-  grid-template-areas: "logo header"
-                       "nav nav" 
-                       "content content"
-                       "footer footer";
+  grid-template-areas: "logo header" "nav nav" "content content" "footer footer";
+  background-color: rgb(166, 252, 252);
 }
 
 aside.logo{
@@ -36,10 +33,10 @@ aside.menu-area{
   grid-area: nav;
 }
 
-footer.footer{
-  grid-area: footer;
-}
-
 main.maincontent{
   grid-area: content;
+}
+
+footer.footer{
+  grid-area: footer;
 }

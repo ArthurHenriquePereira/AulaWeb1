@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import Routes from './components/Routes';
+//import Routes from './components/Routes';
 import Header from './components/Header';
 import Logo from './components/Logo';
 import Nav from './components/Nav';
@@ -13,11 +13,10 @@ function App() {
   return (
     <BrowserRouter>
       <div className="app">
-        <Header/>
-        <Main/>
         <Logo/>
+        <Header/>
         <Nav/>
-        <Routes/>
+        <Main/>
         <Footer/>
       </div>
     </BrowserRouter>
