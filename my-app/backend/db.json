@@ -1,8 +1,0 @@
-{
-  "usuarios": [
-    {"id": "1", "nome": "Usuário 1", "email": "Usuario1@gmail.com"},
-    {"id": "2", "nome": "Usuário 2", "email": "Usuario2@gmail.com"},
-    {"id": "3", "nome": "Usuário 3", "email": "Usuario3@gmail.com"},
-    {"id": "4", "nome": "Usuário 4", "email": "Usuario4@gmail.com"}
-  ]
-}
